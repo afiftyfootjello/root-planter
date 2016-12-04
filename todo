@@ -1,0 +1,18 @@
+
+-
+setsid fails if you don't run planter as su. Find a way to use dirty cow to set a new sid without root privelege.
+
+-
+going to have to test this eventually. Need to find a machine that can compile this and is vulnerable to it.
+
+
+-
+find a rootkit to install
+
+
+-
+create checklist & check for checklist on each script
+
+
+-
+

@@ -1,0 +1,17 @@
+In this project I will attempt to write a daemon that uses the linux dirtycow exploit to covertly install a rootkit behind the scenes.
+
+I will assume that it is first possible to run the daemon on a target system.
+
+I want the daemon to do the following:
+
+-add itself to linux startup daemons so that it is persistent across startups
+
+-create a checklist of rootkit tasks
+
+-periodically attempt dirtycow exploit to do the checklist tasks
+
+-keep track of progress, continue where it left off if there is a reboot
+
+-when finished installing the rootkit, erase any trace that it was there
+
+
